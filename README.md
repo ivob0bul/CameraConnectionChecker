@@ -55,6 +55,19 @@ Change the value of search_query to fit your specific requirements.
 	[+] Camera found 'dahua' on IP: 192.168.1.10
 	[DEBUG] Checking RTSP-stream: rtsp://192.168.1.10/media/video1
 
+## Supported Cameras
+This script supports multiple camera brands with specific HTTP and RTSP endpoints:
+
+**Dahua**
+- **HTTP**: `/cgi-bin/mjpg/video.cgi`, `/cgi-bin/snapshot.cgi`
+- **RTSP**: `rtsp://{ip}:554/cam/realmonitor?channel=1&subtype=0`, `rtsp://{ip}:554/cam/realmonitor?channel=1&subtype=1`
+
+**Hikvision**
+- **HTTP**: `/ISAPI/Streaming/channels/1/picture`, `/onvif-http/snapshot?Profile_1`
+- **RTSP**: `rtsp://{ip}:554/Streaming/Channels/101`, `rtsp://{ip}:554/Streaming/Channels/102`
+
+_Add similar listings for other brands (Axis, Foscam, Samsung, Trendnet, Sony) following this format._
+
 ## Contribution
 If you want to contribute to the project, please fork the repository, make your changes, and submit a pull request. We welcome your suggestions and improvements!
 
