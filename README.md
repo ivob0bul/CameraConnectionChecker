@@ -32,7 +32,7 @@
 
 ## Usage
 1. Set up ZoomEye:
-	Ensure that you have ZoomEye installed and have access to its API.
+	Ensure that you have ZoomEye installed and have access to its API. [How to.](https://pypi.org/project/zoomeye/)
 
 2. Edit the search query:
 	Open the camera_connection_checker.py file and modify the search_query variable at the top of the script to customize the search according to your needs. For example:
