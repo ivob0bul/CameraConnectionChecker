@@ -35,7 +35,7 @@
 	Ensure that you have ZoomEye installed and have access to its API. [How to.](https://pypi.org/project/zoomeye/)
 
 2. Edit the search query:
-	Open the camera_connection_checker.py file and modify the search_query variable at the top of the script to customize the search according to your needs. For example:
+	Open the cam.py file and modify the search_query variable at the top of the script to customize the search according to your needs. For example:
 
 	```bash
 	search_query = "app:trendnet +after:'2024-01-01' +before:'2025-01-01'"
